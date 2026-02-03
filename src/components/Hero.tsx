@@ -11,7 +11,7 @@ export default function Hero() {
   const articleCount = allPosts.length;
 
   return (
-    <section className="relative py-50 md:py-32 overflow-hidden isolate">
+    <section className="relative py-50 md:py-32 overflow-hidden isolate mt-16">
       <FallingLetters />
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
       <div className="absolute inset-0 scanline opacity-50" />

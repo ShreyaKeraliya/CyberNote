@@ -86,7 +86,7 @@ const latestPost = posts.length
 
   return (
     <Layout>
-      <div className="relative overflow-hidden min-h-screen">
+      <div className="relative overflow-hidden min-h-screen mt-10">
         {/* Animated Background Layers */}
         <div className="fixed inset-0 z-0 overflow-hidden">
           {/* Gradient Orbs */}
